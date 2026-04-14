@@ -18,18 +18,7 @@ export default function Home() {
       <MatrixRain />
       {/* Navigation */}
       <Navbar />
-
-      {/* Disclaimer Marquee */}
-      <div className="bg-yellow-500/10 border-y border-yellow-500/30 py-2 mt-16">
-        <Marquee speed={50} gradient={false}>
-          <span className="font-mono text-sm text-yellow-400 mx-8">
-            $YLD is a fictional token displayed for the Hedera Hello Future:
-            Origins Hackathon 2025, solely to illustrate potential token utility
-            within the project.
-          </span>
-        </Marquee>
-      </div>
-
+      <div className="border-y border-yellow-500/30 py-2 mt-16"></div>
       {/* Page Sections */}
       <main>
         <Hero />
